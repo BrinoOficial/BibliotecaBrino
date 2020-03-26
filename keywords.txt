@@ -1,0 +1,127 @@
+# Syntax Coloring Map For Brino based on https://arduino.github.io/arduino-cli/library-specification/#keywordstxt-format
+
+# Datatypes (KEYWORD1)
+Numero	KEYWORD1
+NumeroDecimal	KEYWORD1
+NumeroLongo	KEYWORD1
+Letra	KEYWORD1
+Palavra	KEYWORD1
+Condicao	KEYWORD1
+Procedimento	KEYWORD1
+
+# Methods and Functions (KEYWORD2)
+
+# Instances (KEYWORD2)
+
+# Constants (LITERAL1)
+VERDADEIRO	LITERAL1
+FALSO	LITERAL1
+responder	LITERAL1
+Entrada	LITERAL1
+ENTRADA	LITERAL1
+Entrada_PULLUP	LITERAL1
+ENTRADA_PULLUP	LITERAL1
+Saida	LITERAL1
+SAIDA 	LITERAL1
+Ligado	LITERAL1
+LIGADO	LITERAL1
+Desligado	LITERAL1
+DESLIGADO	LITERAL1
+Ligando	LITERAL1
+LIGANDO	LITERAL1
+Desligando	LITERAL1
+DESLIGANDO	LITERAL1
+Direito	LITERAL1
+DIREITO	LITERAL1
+Esquerdo	LITERAL1
+ESQUERDO	LITERAL1
+SERVOFRENTE	LITERAL1
+SERVOPARAR	LITERAL1
+SERVOTRAS	LITERAL1
+
+_________________________________________________________________
+Brino	keyword1
+
+
+
+Modulo	keyword2
+Constante	keyword2
+
+soar	keyword3
+pararSoar	keyword3
+esperar	keyword3
+proporcionar	keyword3
+enviarBinario	keyword3
+tamanho	keyword3
+remover	keyword3
+
+Configuracao	keyword4
+Principal	keyword4
+
+USB	keyword3
+conectar	keyword3
+enviarrf	keyword3
+enviarln	keyword3
+disponivel	keyword3
+ler	keyword3
+descarregar	keyword3
+
+definirModo	keyword5
+escreberDigital	keyword5
+escreverAnalogico	keyword5
+lerDigital	keyword5
+lerAnalogico	keyword5
+ligar	keyword5
+desligar	keyword5
+pulsoEm	keyword5
+
+Memoria	keyword5
+lerMemoria	keyword5
+escreverMemoria	keyword5
+tamanho	keyword5
+formatar	keyword5
+
+arquivo	keyword6
+abrir	keyword6
+
+LCD	keyword6
+posicao	keyword6
+limpar	keyword6
+
+conectarServo	keyword5
+escreverAngulo	keyword5
+escreverMicros	keyword5
+
+
+I2C	keyword5
+transmitir	keyword5
+pararTransmitir	keyword5
+escreverI2C	keyword5
+disponivel	keyword5
+solicitar	keyword5
+solicitado	keyword5
+recebido	keyword5
+
+conectarInterruptor	keyword5
+desconectarInterruptor	keyword5
+desligarInterruptores	keyword5
+ligarInterruptores	keyword5
+MUDANDO	keyword7
+
+geradorAleatorio	keyword5
+numeroAleatorio	keyword5
+
+caso	keyword8
+enquanto	keyword8
+para	keyword8
+se	keyword8
+senao	keyword8
+seletor	keyword8
+e	keyword8
+ou	keyword8
+
+
+
+
+
+
