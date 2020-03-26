@@ -10,8 +10,74 @@ Condicao	KEYWORD1
 Procedimento	KEYWORD1
 
 # Methods and Functions (KEYWORD2)
+soar	KEYWORD2
+pararSoar	KEYWORD2
+esperar	KEYWORD2
+proporcionar	KEYWORD2
+enviarBinario	KEYWORD2
+tamanho	KEYWORD2
+remover	KEYWORD2
+conectar	KEYWORD2
+enviarrf	KEYWORD2
+enviarln	KEYWORD2
+disponivel	KEYWORD2
+ler	KEYWORD2
+descarregar	KEYWORD2
+definirModo	KEYWORD2
+escreberDigital	KEYWORD2
+escreverAnalogico	KEYWORD2
+lerDigital	KEYWORD2
+lerAnalogico	KEYWORD2
+ligar	KEYWORD2
+desligar	KEYWORD2
+pulsoEm	KEYWORD2
+lerMemoria	KEYWORD2
+escreverMemoria	KEYWORD2
+tamanho	KEYWORD2
+formatar	KEYWORD2
+geradorAleatorio	KEYWORD2
+numeroAleatorio	KEYWORD2
+abrir	KEYWORD2
+posicao	KEYWORD2
+limpar	KEYWORD2
+conectarServo	KEYWORD2
+escreverAngulo	KEYWORD2
+escreverMicros	KEYWORD2
+transmitir	KEYWORD2
+pararTransmitir	KEYWORD2
+escreverI2C	KEYWORD2
+disponivel	KEYWORD2
+solicitar	KEYWORD2
+solicitado	KEYWORD2
+recebido	KEYWORD2
+conectarInterruptor	KEYWORD2
+desconectarInterruptor	KEYWORD2
+desligarInterruptores	KEYWORD2
+ligarInterruptores	KEYWORD2
+
+
 
 # Instances (KEYWORD2)
+Brino	KEYWORD2
+USB	KEYWORD2
+Memoria	KEYWORD2
+arquivo	KEYWORD2
+LCD	KEYWORD2
+I2C	KEYWORD2
+
+# specifies structures (KEYWORD3)
+Modulo	KEYWORD3
+Constante	KEYWORD3
+Configuracao	KEYWORD3
+Principal	KEYWORD3
+caso	KEYWORD3
+enquanto	KEYWORD3
+para	KEYWORD3
+se	KEYWORD3
+senao	KEYWORD3
+seletor	KEYWORD3
+e	KEYWORD3
+ou	KEYWORD3
 
 # Constants (LITERAL1)
 VERDADEIRO	LITERAL1
@@ -38,90 +104,4 @@ ESQUERDO	LITERAL1
 SERVOFRENTE	LITERAL1
 SERVOPARAR	LITERAL1
 SERVOTRAS	LITERAL1
-
-_________________________________________________________________
-Brino	keyword1
-
-
-
-Modulo	keyword2
-Constante	keyword2
-
-soar	keyword3
-pararSoar	keyword3
-esperar	keyword3
-proporcionar	keyword3
-enviarBinario	keyword3
-tamanho	keyword3
-remover	keyword3
-
-Configuracao	keyword4
-Principal	keyword4
-
-USB	keyword3
-conectar	keyword3
-enviarrf	keyword3
-enviarln	keyword3
-disponivel	keyword3
-ler	keyword3
-descarregar	keyword3
-
-definirModo	keyword5
-escreberDigital	keyword5
-escreverAnalogico	keyword5
-lerDigital	keyword5
-lerAnalogico	keyword5
-ligar	keyword5
-desligar	keyword5
-pulsoEm	keyword5
-
-Memoria	keyword5
-lerMemoria	keyword5
-escreverMemoria	keyword5
-tamanho	keyword5
-formatar	keyword5
-
-arquivo	keyword6
-abrir	keyword6
-
-LCD	keyword6
-posicao	keyword6
-limpar	keyword6
-
-conectarServo	keyword5
-escreverAngulo	keyword5
-escreverMicros	keyword5
-
-
-I2C	keyword5
-transmitir	keyword5
-pararTransmitir	keyword5
-escreverI2C	keyword5
-disponivel	keyword5
-solicitar	keyword5
-solicitado	keyword5
-recebido	keyword5
-
-conectarInterruptor	keyword5
-desconectarInterruptor	keyword5
-desligarInterruptores	keyword5
-ligarInterruptores	keyword5
-MUDANDO	keyword7
-
-geradorAleatorio	keyword5
-numeroAleatorio	keyword5
-
-caso	keyword8
-enquanto	keyword8
-para	keyword8
-se	keyword8
-senao	keyword8
-seletor	keyword8
-e	keyword8
-ou	keyword8
-
-
-
-
-
-
+MUDANDO	LITERAL1
