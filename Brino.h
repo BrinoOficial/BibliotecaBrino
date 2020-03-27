@@ -33,6 +33,7 @@
 #define tamanho length
 #define remover remove
 
+
 // Fucoes essenciais
 #define Configuracao void setup
 #define Principal void loop
@@ -89,7 +90,7 @@ void apagarMemoriaToda();
 #define I2C Wire
 #define transmitir beginTransmission
 #define pararTransmitir endTransmission
-#define escreverI2C write
+#define escrever write
 #define disponivel available
 #define solicitar requestFrom
 #define solicitado onRequest
@@ -142,12 +143,11 @@ void apagarMemoriaToda();
 #define DIREITO LSBFIRST
 #define Esquerdo MSBFIRST
 #define ESQUERDO MSBFIRST
+#define MotorDePasso Stepper
+#define definirVelocidade setSpeed
+#define passo step
+#define SemRetorno void
 
-
-
-
-// Testar dps
-#define definir #define
 
 
 class blk_n{

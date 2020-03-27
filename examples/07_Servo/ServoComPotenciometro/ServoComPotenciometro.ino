@@ -9,7 +9,8 @@
    http://www.arduino.cc/en/Tutorial/Knob
 */
 
-usar Servo
+#include <Brino.h>
+#include <Servo.h>
 
 // Cria um objeto para controlar o motor
 Servo meuServo;
@@ -20,17 +21,17 @@ Constante Numero SENSOR = A0;
 Numero leitura;
 
 Configuracao() {
-    // Informa que o servo esta conectado na porta digital 9
-    meuServo.conectar(Digital.9);
+  // Informa que o servo esta conectado na porta digital 9
+  meuServo.conectarServo(9);
 }
 
 Principal() {
-    // Executa a leitura do sensor e armazena o valor na variavel "leitura"
-    leitura = Pino.lerAnalogico(SENSOR);
-    // Proporciona a leitura do sensor no angulo do motor
-    leitura = proporcionar(leitura, 0, 1023, 0, 180);
-    // Movimenta o servo para o angulo referente a leitura
-    meuServo.escreverAngulo(leitura);
-    // Espera o motor se mover
-    esperar(15);
+  // Executa a leitura do sensor e armazena o valor na variavel "leitura"
+  leitura = lerAnalogico(SENSOR);
+  // Proporciona a leitura do sensor no angulo do motor
+  leitura = proporcionar(leitura, 0, 1023, 0, 180);
+  // Movimenta o servo para o angulo referente a leitura
+  meuServo.escreverAngulo(leitura);
+  // Espera o motor se mover
+  esperar(15);
 }

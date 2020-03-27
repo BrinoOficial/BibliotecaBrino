@@ -7,6 +7,8 @@
     http://www.arduino.cc/en/Tutorial/StringConstructors
 */
 
+#include <Brino.h>
+
 Configuracao() {
     // Inicia a comunicacao com o computador
     USB.conectar(9600);
@@ -44,7 +46,7 @@ Principal() {
     // Resultado "13"
 
     // Usando um numero inteiro (Numero) e uma base definida (Decimal)
-    fraseUm =  Palavra(Pino.lerAnalogico(A0), DEC);
+    fraseUm =  Palavra(lerAnalogico(A0), DEC);
     USB.enviarln(fraseUm);
     // Resultado "Leitura sensor: 504" ou quaquer valor lido
     
@@ -74,5 +76,5 @@ Principal() {
     // Resultado "5.70"
 
     // Para o codigo
-    enquanto (Verdadeiro);
+    enquanto (VERDADEIRO);
 }
