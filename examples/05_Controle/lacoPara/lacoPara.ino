@@ -1,0 +1,44 @@
+/*
+    lacoPara - Demonstra o uso de um laco para() piscando um
+    conjunto de LEDs. Primeiro eles serao piscados em uma ordem
+    e, em seguida, em uma ordem contraria
+
+    O circuito:
+    - LEDs conectados da porta digital 2 ate a porta digital 7 e
+    o GND
+
+    Exemplo original do Arduino:
+    http://www.arduino.cc/en/Tutorial/ForLoop
+*/
+
+#include <Brino.h>
+
+// Tempo pelo qual cada LED vai ficar ligado
+Numero tempo = 100;
+
+Configuracao() {
+  // Um laco para() e usado para configurar as portas
+  para (Numero essePino = 2; essePino < 8; essePino++) {
+    definirModo(essePino, Saida);
+  }
+}
+
+Principal() {
+  // Laco para() do primeiro LED ate o ultimo
+  para (Numero essePino = 2; essePino < 8; essePino++) {
+    // Liga o LED
+    ligar(essePino);
+    esperar(tempo);
+    // Desliga o LED
+    desligar(essePino);
+  }
+
+  // Laco para() do ultimo ate o primeiro
+  para (Numero essePino = 7; essePino >= 2; essePino--) {
+    // Liga o LED
+    ligar(essePino);
+    esperar(tempo);
+    // Desliga o LED
+    desligar(essePino);
+  }
+}

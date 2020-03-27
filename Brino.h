@@ -114,19 +114,20 @@ void apagarMemoriaToda();
 #define se if
 #define senao else
 #define seletor switch
+#define quebrar break
 
 // Comparadores
 #define e &&
 #define ou ||
 
 // Palavras chave
-#define VERDADEIRO True
-#define FALSO False
+#define VERDADEIRO 1
+#define FALSO 0
 #define responder return
 #define Entrada INPUT
 #define ENTRADA INPUT
-#define Entrada_PULLUP
-#define ENTRADA_PULLUP
+#define Entrada_PULLUP INPUT_PULLUP
+#define ENTRADA_PULLUP INPUT_PULLUP
 #define Saida OUTPUT
 #define SAIDA OUTPUT
 #define Ligado HIGH
@@ -147,7 +148,6 @@ void apagarMemoriaToda();
 
 // Testar dps
 #define definir #define
-#define usar #include<biblioteca.h>
 
 
 class blk_n{

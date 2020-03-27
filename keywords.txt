@@ -55,8 +55,6 @@ desconectarInterruptor	KEYWORD2
 desligarInterruptores	KEYWORD2
 ligarInterruptores	KEYWORD2
 
-
-
 # Instances (KEYWORD2)
 Brino	KEYWORD2
 USB	KEYWORD2
@@ -78,6 +76,8 @@ senao	KEYWORD3
 seletor	KEYWORD3
 e	KEYWORD3
 ou	KEYWORD3
+usar KEYWORD3
+quebrar	KEYWORD3
 
 # Constants (LITERAL1)
 VERDADEIRO	LITERAL1

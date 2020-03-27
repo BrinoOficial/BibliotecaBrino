@@ -16,6 +16,8 @@ Adicionado LIGANDO
 Adicionado DESLIGANDO
 Adicionado DIREITO
 Adicionado ESQUERDO
+Adicionar quebrar no dicionario (ja está no exemplo do caso)
+Removido usar
 
 Tirar o "usar" do dicionario da parte de servo
 Arrumar o Servo e servo para <nomeServo> no dicionario onde ta errado
@@ -23,4 +25,12 @@ Arrumar o Servo e servo para <nomeServo> no dicionario onde ta errado
 incluir comandos de arquivo
 melhorar os comandos de arquivo no nosso dicionarios
 
+Mudar estrutura do usar para ele ser so o #include
+
 rever envarrf
+
+O usar na biblioteca tem que ser usado na primeira vez como include
+
+Tirar o maiusculo do Configuracao e do Principal?
+Tirar o maiusculo das variaveis?
+Traduzir default? Tem exemplo com ele no 5.trocarcasos
