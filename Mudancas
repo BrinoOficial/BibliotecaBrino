@@ -55,13 +55,13 @@ Adicionar dicionario:
 	criarLetra (createChar) -LCD
 	*ENTRADA_PULLUP
 	*SAIDA
-	LIGADO
-	DESLIGADO
+	*LIGADO
+	*DESLIGADO
 	*LIGANDO
 	*DESLIGANDO
-	DIREITO
-	ESQUERDO 
-	MUDANDO
+	*DIREITO
+	*ESQUERDO 
+	*MUDANDO
 	definir (Só na IDE, não na biblioteca)
 	lerDigital
 	quebrar
@@ -78,7 +78,7 @@ Adicionar dicionario:
 	*procedimento (remover? Sim)
 	*configuracao
 	*principal
-	ENTRADA_PULLDOWN
+	*ENTRADA_PULLDOWN
 	arquivo.disponivel (File.available)
 	arquivo.espiar (File.peek) 
 	File.read()
