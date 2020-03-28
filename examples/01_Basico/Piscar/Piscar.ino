@@ -9,13 +9,13 @@
 #include <Brino.h>
 
 // Parte do codigo de configuracao
-Configuracao() {
+configuracao() {
   // inicia a porta digital 13 como uma saida(OUTPUT)
   definirModo(13, SAIDA);
 }
 
 // Loop que se repete indefinidamente
-Principal() {
+principal() {
   ligar(13);
   // liga a porta digital acedendo o LED
   esperar(1000);

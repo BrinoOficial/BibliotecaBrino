@@ -4,10 +4,10 @@
  
 #include <Brino.h>
 
-Configuracao() {
+configuracao() {
 // Coloque o seu codigo de configuracao aqui(executado apenas uma vez)
 }
 
-Principal() {
+principal() {
 // Coloque o seu codigo principal aqui(executado repetidamente)
 }

@@ -20,22 +20,22 @@
 
 // Constantes
 // Porta na qual o sensor esta conctado
-Constante Numero SENSOR = A0;
+Constante numero SENSOR = A0;
 // Porta na qual o LED esta conectado
-Constante Numero LED = 13;
+Constante numero LED = 13;
 // Referencial para a mudanca
-Constante Numero LIMIAR = 400;
+Constante numero LIMIAR = 400;
 
-Configuracao() {
+configuracao() {
   // Define o LED como uma saida
   definirModo(LED, SAIDA);
   // Inicia a comunicacao com o computador
   USB.conectar(9600);
 }
 
-Principal() {
+principal() {
   // Faz a leitura do sensor e armazena em "leitura"
-  Numero leitura = lerAnalogico(SENSOR);
+  numero leitura = lerAnalogico(SENSOR);
 
   // Se a leitura for alta o bastante liga o LED
   se (leitura > LIMIAR) {

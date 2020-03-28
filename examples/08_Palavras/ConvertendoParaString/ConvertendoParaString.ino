@@ -9,7 +9,7 @@
 
 #include <Brino.h>
 
-Configuracao() {
+configuracao() {
     // Inicia a comunicacao com o computador
     USB.conectar(9600);
     enquanto (!USB) {
@@ -19,7 +19,7 @@ Configuracao() {
     USB.enviarln("Convertendo dados para Palavra:\n");
 }
 
-Principal() {
+principal() {
     // Usando uma Palavra constante
     Palavra fraseUm = "Frase ola";
     USB.enviarln(fraseUm);
@@ -40,37 +40,37 @@ Principal() {
     USB.enviarln(fraseUm);
     // Resultado "Isso e uma frase com mais"  
 
-    // Usando um Numero constante
+    // Usando um numero constante
     fraseUm =  Palavra(13);
     USB.enviarln(fraseUm);
     // Resultado "13"
 
-    // Usando um numero inteiro (Numero) e uma base definida (Decimal)
+    // Usando um numero inteiro (numero) e uma base definida (Decimal)
     fraseUm =  Palavra(lerAnalogico(A0), DEC);
     USB.enviarln(fraseUm);
     // Resultado "Leitura sensor: 504" ou quaquer valor lido
     
-    // Usando um numero inteiro (Numero) e uma base definida (Hexadecimal)
+    // Usando um numero inteiro (numero) e uma base definida (Hexadecimal)
     fraseUm =  Palavra(45, HEX);
     USB.enviarln(fraseUm);
     // Resultado "2d", que corresponde ao valor hexadecimal do numero decimal 45
 
-    // Usando um numero inteiro (Numero) e uma base definida (Binaria)
+    // Usando um numero inteiro (numero) e uma base definida (Binaria)
     fraseUm =  Palavra(255, BIN);
     USB.enviarln(fraseUm);
     // Resultado "11111111" que e o valor binario do valor decimal 255
 
-    // Usando um NumeroLongo e uma base definida (decimal)
+    // Usando um numeroLongo e uma base definida (decimal)
     fraseUm =  Palavra(millis(), DEC);
     USB.enviarln(fraseUm);
     // Resultado "52" ou qualquer valor correspondente ao millis
 
-    // Usando um NumeroDecimal e um numero especifico de casas decimais
+    // Usando um numeroDecimal e um numero especifico de casas decimais
     fraseUm = String(5.698, 3);
     USB.enviarln(fraseUm);
     // Resultado "5.698"
 
-    // Usando um NumeroDecimal e um numero menor de casas decimais para arredondar
+    // Usando um numeroDecimal e um numero menor de casas decimais para arredondar
     fraseUm = Palavra(5.698, 2);
     USB.enviarln(fraseUm);
     // Resultado "5.70"

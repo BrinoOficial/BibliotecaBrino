@@ -13,7 +13,7 @@
 
 #include <Brino.h>
 
-Configuracao() {
+configuracao() {
   // Inicia a comunicacao com o computador
   USB.conectar(9600);
   enquanto (!USB) {
@@ -24,11 +24,11 @@ Configuracao() {
 }
 
 // O primeiro caracter ASCII visivel é o '!' que possui numero 33
-Numero esseByte = 33;
+numero esseByte = 33;
 // Caracteres ASCII tambem podem ser escritos entre aspas simples '', ou seja, digitar 33 ou '!' surtem o mesmo efeito. O comando poderia ter sido:
-// Numero esseByte = '!';
+// numero esseByte = '!';
 
-Principal() {
+principal() {
   // Envia o valor sem alteracoes para ser interpretado como um caracter ASCII, o primeiro seria uma '!'
   USB.write(esseByte);
 

@@ -15,14 +15,14 @@
 Servo meuServo;
 
 // Variavel para armazenar o angulo
-Numero pos = 0;
+numero pos = 0;
 
-Configuracao() {
+configuracao() {
   // Informa que o servo esta conectado na porta digital 9
   meuServo.conectarServo(9);
 }
 
-Principal() {
+principal() {
   // Movimenta o servo do angulo 0 ate o angulo 180 de um a um grau
   para (pos = 0; pos <= 180; pos += 1) {
     // Movimenta o servo para o angulo especificado

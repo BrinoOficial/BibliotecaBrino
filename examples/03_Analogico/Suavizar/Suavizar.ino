@@ -11,25 +11,25 @@
 #include <Brino.h>
 
 // Define o numero de medidas que devem ser feitas. Quanto maior esse numero mais estavel deve ser a saida
-Constante Numero numeroDeMedidas = 10;
+Constante numero numeroDeMedidas = 10;
 
-Numero leituras[numeroDeMedidas];
-Numero indiceLeitura = 0;
-Numero total = 0;
-Numero media = 0;
+numero leituras[numeroDeMedidas];
+numero indiceLeitura = 0;
+numero total = 0;
+numero media = 0;
 
-Numero pinoEntrada = A0;
+numero pinoEntrada = A0;
 
-Configuracao() {
+configuracao() {
   // Inicializa a comunicacao serial
   USB.conectar(9600);
   // Inicializa as medidas em 0
-  para (Numero esssaLeitura = 0; esssaLeitura < numeroDeMedidas; esssaLeitura++) {
+  para (numero esssaLeitura = 0; esssaLeitura < numeroDeMedidas; esssaLeitura++) {
     leituras[esssaLeitura] = 0;
   }
 }
 
-Principal() {
+principal() {
   // Subtrai a ultima medida
   total = total - leituras[indiceLeitura];
   // Faz a leitura do sensor

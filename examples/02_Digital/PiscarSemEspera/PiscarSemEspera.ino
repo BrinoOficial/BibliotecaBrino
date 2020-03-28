@@ -11,26 +11,26 @@
 #include <Brino.h>
 
 // Porta do LED
-Constante Numero LED =  13;
+Constante numero LED =  13;
 
 // Variavel para o estado do LED
-Numero estadoLED = DESLIGADO;
+numero estadoLED = DESLIGADO;
 
 // Variavel para armazenar o momento da ultima mudanca de estado. Usamos o modulo pois o numero ira crescer muito rapidamente
-Modulo NumeroLongo millisAnterior = 0;
+Modulo numeroLongo millisAnterior = 0;
 
 // Intervalo entre as piscadas
-Constante Numero INTERVALO = 1000;
+Constante numero INTERVALO = 1000;
 
-Configuracao() {
+configuracao() {
     // Define a porta do LED como uma saida
     definirModo(LED, SAIDA);
 }
-Principal() {
+principal() {
     // Colocamos aqui o codigo que queremos que rode simultaneamente
 
     // Pega o momento atual e compara com o antigo para piscar no momento correto
-    Modulo NumeroLongo millisAtual = millis();
+    Modulo numeroLongo millisAtual = millis();
     se (millisAtual - millisAnterior >= INTERVALO) {
         // Salva a ultima vez em que piscou
         millisAnterior = millisAtual;

@@ -14,21 +14,21 @@
 #include <Brino.h>
 
 // Porta em que o botao esta conectado
-Constante Numero BOTAO = 2;   
+Constante numero BOTAO = 2;   
 // Porta em que o LED esta conectado 
-Constante Numero LED =  13;  
+Constante numero LED =  13;  
 
 // Variavel para o estado do botao
-Numero estadoBotao = 0; 
+numero estadoBotao = 0; 
 
-Configuracao() {
+configuracao() {
     // Defini a porta "LED" como uma saida
     definirModo(LED, SAIDA);
     // Define a porta "BOTAO" como uma entrada
     definirModo(BOTAO, ENTRADA);
 }
 
-Principal() {
+principal() {
     // Le o estado do botao e salva na variavel "estadoBotao"
     estadoBotao = lerDigital(BOTAO);
 

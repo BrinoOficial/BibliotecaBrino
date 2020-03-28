@@ -12,16 +12,16 @@
 #include <Brino.h>
 
 // Constantes:
-Constante Numero SENSOR = A0;
-Constante Numero LED = 9;
+Constante numero SENSOR = A0;
+Constante numero LED = 9;
 
 // Variaveis:
-Numero leitura = 0;
-Numero leitueaMin = 1023;
-Numero leituraMax = 0;
+numero leitura = 0;
+numero leitueaMin = 1023;
+numero leituraMax = 0;
 
 
-Configuracao() {
+configuracao() {
   // Liga o LED para indicar que esta no periodo de calibracao
   definirModo(13, SAIDA);
   ligar(13);
@@ -45,7 +45,7 @@ Configuracao() {
   desligar(13);
 }
 
-Principal() {
+principal() {
   // Faz a leitura do sensor
   leitura = lerAnalogico(SENSOR);
 

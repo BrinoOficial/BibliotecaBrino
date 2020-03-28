@@ -12,21 +12,21 @@
 // Essas sao as constantes, como o nome diz, elas nao mudam
 // Abaixo estao numeradas as portas que serao usadas.
 // Porta analogica do potenciometro
-Constante Numero entradaPortaAnalogica = A0;
+Constante numero entradaPortaAnalogica = A0;
 // Porta analogica em que o LED esta conectado
-Constante Numero saidaPortaAnalogica = 9;
+Constante numero saidaPortaAnalogica = 9;
 
 // Le o valor dado pelo potenciometro
-Numero medidaSensor = 0;
+numero medidaSensor = 0;
 // Valor de saida da porta PWM (LED)
-Numero saidaPWM = 0;
+numero saidaPWM = 0;
 
-Configuracao() {
+configuracao() {
   // Comeca uma comunicacao serial
   USB.conectar(9600);
 }
 
-Principal() {
+principal() {
   // Le o valor potenciometro:
   medidaSensor = lerAnalogico(entradaPortaAnalogica);
   // Faz uma regra de 3 com os possiveis valores de saida da porta PWM:

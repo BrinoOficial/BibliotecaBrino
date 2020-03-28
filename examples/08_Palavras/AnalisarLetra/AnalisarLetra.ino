@@ -9,7 +9,7 @@
 
 #include <Brino.h>
 
-Configuracao() {
+configuracao() {
   // Inicia a comunicacao com o computador
   USB.conectar(9600);
   enquanto (!USB) {
@@ -21,10 +21,10 @@ Configuracao() {
   USB.enviarln();
 }
 
-Principal() {
+principal() {
   // Pega o dado
   se (USB.disponivel() > 0) {
-    Numero essaLetra = USB.read();
+    numero essaLetra = USB.read();
 
     // Informa o dado recebido
     USB.enviar("Voce enviou: \'");

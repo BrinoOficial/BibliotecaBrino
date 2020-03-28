@@ -13,27 +13,27 @@
 
 #include <Brino.h>
 
-Constante Numero BOTAO = 2;
-Constante Numero LED = 13;
+Constante numero BOTAO = 2;
+Constante numero LED = 13;
 
-Numero estadoLED = LIGADO;
-Numero estadoBotao;
+numero estadoLED = LIGADO;
+numero estadoBotao;
 // A leitura anterior do botao
-Numero ultimoEstadoBotao = DESLIGADO;
+numero ultimoEstadoBotao = DESLIGADO;
 
 
 // Variavel para armazenar o momento da ultima mudanca de estado. Usamos o modulo pois o numero ira crescer muito rapidamente
-Modulo NumeroLongo tempoUltimaMudanca = 0;
-Modulo NumeroLongo tempoMudanca = 100;
+Modulo numeroLongo tempoUltimaMudanca = 0;
+Modulo numeroLongo tempoMudanca = 100;
 
-Configuracao() {
+configuracao() {
     definirModo(BOTAO, ENTRADA);
     definirModo(LED, SAIDA);
 }
 
-Principal() {
+principal() {
     // Le o estado do botao e armazena na variavel "leitura"
-    Numero leitura = lerDigital(BOTAO);
+    numero leitura = lerDigital(BOTAO);
 
     // Se o estado do botao tiver mudado
     se (leitura != ultimoEstadoBotao) {

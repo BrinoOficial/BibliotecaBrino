@@ -11,13 +11,13 @@
 #include <Brino.h>
 
 // LED conectado na porta 9
-Numero LED = 9;
+numero LED = 9;
 
-Configuracao() {
+configuracao() {
 }
-Principal() {
+principal() {
   // Aumenta o valor da saida de 5 em 5
-  para (Numero valorMudanca = 0 ; valorMudanca <= 255; valorMudanca += 5) {
+  para (numero valorMudanca = 0 ; valorMudanca <= 255; valorMudanca += 5) {
     // Aplica o valor (de 0 ate 255)
     escreverAnalogico(LED, valorMudanca);
     // Espera para observar a mudanca
@@ -25,7 +25,7 @@ Principal() {
   }
 
   // fade out from max to min in increments of 5 points:
-  para (Numero valorMudanca = 255 ; valorMudanca >= 0; valorMudanca -= 5) {
+  para (numero valorMudanca = 255 ; valorMudanca >= 0; valorMudanca -= 5) {
     // Aplica o valor (de 255 ate 0)
     escreverAnalogico(LED, valorMudanca);
     // Espera para observar a mudanca

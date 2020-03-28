@@ -18,19 +18,19 @@
 
 // Essas sao as constantes, elas nao mudam
 // Elas delimitam a leitura minima e maxima do sensor
-const Numero sensorMin = 0;      // Leitura minima, descoberta por experimentacao
-const Numero sensorMax = 600;    // Leitura maxima, descoberta por experimentacao
+const numero sensorMin = 0;      // Leitura minima, descoberta por experimentacao
+const numero sensorMax = 600;    // Leitura maxima, descoberta por experimentacao
 
-Configuracao () {
+configuracao () {
   // Comeca uma comunicacao USB
   USB.conectar(9600);
 }
 
-Principal () {
+principal () {
   // Le o sensor:
-  Numero leitura = lerAnalogico(A0);
+  numero leitura = lerAnalogico(A0);
   //Faz uma regra de tres com as leituras do sensor e seu minimo e maximo
-  Numero intervalo = proporcionar(leitura, sensorMin, sensorMax, 0, 3);
+  numero intervalo = proporcionar(leitura, sensorMin, sensorMax, 0, 3);
 
   // Seleciona o que fazer de acordo com a entrada
   seletor (intervalo) {

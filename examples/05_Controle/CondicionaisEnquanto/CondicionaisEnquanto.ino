@@ -20,30 +20,30 @@
 
 // Constantes
 // Porta em que o sensor esta conectado
-Constante Numero SENSOR = A0;
+Constante numero SENSOR = A0;
 // Porta em que o LED esta conectado
-Constante Numero LED = 9;
+Constante numero LED = 9;
 // Porta em que o LED que indica que ele esta calibrando esta conectado
-Constante Numero LEDDEINDICACAO = 13;
+Constante numero LEDDEINDICACAO = 13;
 // Porta em que o botao esta conectado
-Constante Numero BOTAO = 2;
+Constante numero BOTAO = 2;
 
 // Variaveis
 // variavel para guardar a menor leitura do sensor
-Numero leituraMin = 1023;
+numero leituraMin = 1023;
 // variavel para guardar a maior leitura do sensor
-Numero leituraMax = 0;
+numero leituraMax = 0;
 // variavel para guardar a leitura do sensor
-Numero leitura = 0;
+numero leitura = 0;
 
-Configuracao() {
+configuracao() {
   // Configura as portas
   definirModo(LEDDEINDICACAO, SAIDA);
   definirModo(LED, SAIDA);
   definirModo(BOTAO, ENTRADA);
 }
 
-Principal() {
+principal() {
   // Enquanto o botao estiver pressionado ele entra na funcao calibrar() que foi declarada mais adiante
   enquanto (lerDigital(BOTAO) == LIGADO) {
     calibrar();
@@ -64,7 +64,7 @@ Principal() {
   escreverAnalogico(LED, leitura);
 }
 
-Procedimento calibrar() {
+semRetorno calibrar() {
   // Liga o LED para indicar que esta acontecendo a calibracao
   ligar(LEDDEINDICACAO);
   // Executa a leitura do sensor e armazena em "leitura"

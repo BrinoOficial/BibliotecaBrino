@@ -15,20 +15,20 @@
 
 #include <Brino.h>
 
-Configuracao() {
+configuracao() {
   // Inicia a comunicacao serial
   USB.conectar(9600);
   // Configura as portas dos LEDs como saidas
-  para (Numero essaPorta = 2; essaPorta < 7; essaPorta++) {
+  para (numero essaPorta = 2; essaPorta < 7; essaPorta++) {
     definirModo(essaPorta, Saida);
   }
   USB.enviarln("Ligue e desligue os LEDs!\nEnvie alguma letra eveja o resultado\n\n");
 }
 
-Principal() {
+principal() {
   // Le se existem dados disponiveis na serial
   se (USB.disponivel() > 0) {
-    Numero entrada = USB.ler();
+    numero entrada = USB.ler();
     // Faz coisas diferentes para cada valor recebido
     seletor (entrada) {
     caso 'a':
@@ -50,9 +50,9 @@ Principal() {
       quebrar;
       // Se o valor nao se encaixou em nenhum dos casos anteriores,
       // essa parte e executada
-    default:
+    padrao:
       // Desliga todos os LEDs
-      para (Numero essaPorta = 2; essaPorta < 7; essaPorta++) {
+      para (numero essaPorta = 2; essaPorta < 7; essaPorta++) {
         desligar(essaPorta);
       }
     }

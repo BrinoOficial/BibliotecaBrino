@@ -13,6 +13,7 @@
 
 // Tipos de variavel
 #define Numero int
+#define numero int
 #define NumeroDecimal float
 #define NumeroLongo long
 #define Letra char
@@ -32,11 +33,18 @@
 #define enviarBinario shiftOut
 #define tamanho length
 #define remover remove
-
+#define existe exists
+#define criarPasta mkdir
+#define removerPasta rmdir
+#define comecaCom startsWith
+#define terminaCom endsWith
+#define emNumero toInt
 
 // Fucoes essenciais
 #define Configuracao void setup
 #define Principal void loop
+#define configuracao void setup
+#define principal void loop
 
 // USB
 #define USB Serial
@@ -71,6 +79,10 @@ void apagarMemoriaToda();
 // Arquivos
 #define arquivo file
 #define abrir open
+#define fechar close
+#define gravar print
+#define ArquivoGravar FILE_WRITE
+#define arquivoGravar FILE_WRITE
 
 
 // LCD
@@ -116,6 +128,7 @@ void apagarMemoriaToda();
 #define senao else
 #define seletor switch
 #define quebrar break
+#define padrao	default
 
 // Comparadores
 #define e &&
@@ -129,6 +142,8 @@ void apagarMemoriaToda();
 #define ENTRADA INPUT
 #define Entrada_PULLUP INPUT_PULLUP
 #define ENTRADA_PULLUP INPUT_PULLUP
+#define Entrada_PULLDOWN INPUT_PULLDOWN
+#define ENTRADA_PULLDOWN INPUT_PULLDOWN
 #define Saida OUTPUT
 #define SAIDA OUTPUT
 #define Ligado HIGH
@@ -143,10 +158,9 @@ void apagarMemoriaToda();
 #define DIREITO LSBFIRST
 #define Esquerdo MSBFIRST
 #define ESQUERDO MSBFIRST
-#define MotorDePasso Stepper
-#define definirVelocidade setSpeed
-#define passo step
 #define SemRetorno void
+#define semRetorno void
+#define milissegundos milis
 
 
 

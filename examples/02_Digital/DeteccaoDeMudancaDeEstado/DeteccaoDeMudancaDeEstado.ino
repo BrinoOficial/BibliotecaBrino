@@ -13,15 +13,15 @@
 #include <Brino.h>
 
 //Essas sao as constantes, como o nome sugere, elas nao mudam
-Constante Numero  botao = 2;    // porta em que o botao deve ser conectado
-Constante Numero LED = 13;      // porta em que o LED deve ser conectado
+Constante numero  botao = 2;    // porta em que o botao deve ser conectado
+Constante numero LED = 13;      // porta em que o LED deve ser conectado
 
 // Essas sao as variaveis, como o nome sugere, elas irao mudar
-Numero contadorBotao = 0;   //conta quantas vezes o botão foi acionado
-Numero estadoBotao = 0;         // verifica se o estado do botao (ligado/deligado)
-Numero ultimoEstado = 0;     // armazena o ultimo estado do botao (ligado/deligado)
+numero contadorBotao = 0;   //conta quantas vezes o botão foi acionado
+numero estadoBotao = 0;         // verifica se o estado do botao (ligado/deligado)
+numero ultimoEstado = 0;     // armazena o ultimo estado do botao (ligado/deligado)
 
-Configuracao() {
+configuracao() {
     // Define o botao como uma entrada:
     definirModo(botao, ENTRADA);
     // Define o LED como uma saida:
@@ -31,7 +31,7 @@ Configuracao() {
 }
 
 
-Principal() {
+principal() {
     // le a entrada do botao:
     estadoBotao = lerDigital(botao);
 

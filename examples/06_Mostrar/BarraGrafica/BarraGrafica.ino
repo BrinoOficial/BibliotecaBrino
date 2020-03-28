@@ -18,29 +18,29 @@
 
 // Constantes
 // Porta em que o sensor esta conectado
-Constante Numero SENSOR = A0;
+Constante numero SENSOR = A0;
 // Quantidade de LEDs na barra
-Constante Numero numeroDeLEDs = 10;
+Constante numero numeroDeLEDs = 10;
 
 // Portas em que os LEDs da barra estao conectados
-Numero portasLEDs[] = {2, 3, 4, 5, 6, 7, 8, 9, 10, 11};
+numero portasLEDs[] = {2, 3, 4, 5, 6, 7, 8, 9, 10, 11};
 
 
-Configuracao() {
+configuracao() {
   // Configura todos os LEDs como saidas
-  para (Numero esseLED = 0; esseLED < numeroDeLEDs; esseLED++) {
+  para (numero esseLED = 0; esseLED < numeroDeLEDs; esseLED++) {
     definirModo(portasLEDs[esseLED], SAIDA);
   }
 }
 
-Principal() {
+principal() {
   // Le o sensor
-  Numero leitura = lerAnalogico(SENSOR);
+  numero leitura = lerAnalogico(SENSOR);
   // Mapeia a leitura para dentro do numero de LEDs
-  Numero nivel = proporcionar(leitura, 0, 1023, 0, numeroDeLEDs);
+  numero nivel = proporcionar(leitura, 0, 1023, 0, numeroDeLEDs);
 
   // Loop para interagir com todos os LEDs
-  para (Numero esseLED = 0; esseLED < numeroDeLEDs; esseLED++) {
+  para (numero esseLED = 0; esseLED < numeroDeLEDs; esseLED++) {
     // Se o LED estiver abaixo do nivel ele deve acender
     se (esseLED < nivel) {
       ligar(portasLEDs[esseLED]);

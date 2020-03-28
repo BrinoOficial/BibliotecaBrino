@@ -8,6 +8,12 @@ Letra	KEYWORD1
 Palavra	KEYWORD1
 Condicao	KEYWORD1
 Procedimento	KEYWORD1
+numero	KEYWORD1
+numeroDecimal	KEYWORD1
+numeroLongo	KEYWORD1
+letra	KEYWORD1
+condicao	KEYWORD1
+procedimento	KEYWORD1
 
 # Methods and Functions (KEYWORD2)
 soar	KEYWORD2
@@ -17,6 +23,11 @@ proporcionar	KEYWORD2
 enviarBinario	KEYWORD2
 tamanho	KEYWORD2
 remover	KEYWORD2
+criarPasta	KEYWORD2
+removerPasta	KEYWORD2
+fechar	KEYWORD2
+gravar	KEYWORD2
+existe	KEYWORD2
 conectar	KEYWORD2
 enviar	KEYWORD2
 enviarrf	KEYWORD2
@@ -55,6 +66,9 @@ conectarInterruptor	KEYWORD2
 desconectarInterruptor	KEYWORD2
 desligarInterruptores	KEYWORD2
 ligarInterruptores	KEYWORD2
+comecaCom	KEYWORD2
+terminaCom	KEYWORD2
+emNumero	KEYWORD2
 
 # Instances (KEYWORD2)
 Brino	KEYWORD2
@@ -70,6 +84,8 @@ Modulo	KEYWORD3
 Constante	KEYWORD3
 Configuracao	KEYWORD3
 Principal	KEYWORD3
+configuracao	KEYWORD3
+principal	KEYWORD3
 caso	KEYWORD3
 enquanto	KEYWORD3
 para	KEYWORD3
@@ -80,6 +96,8 @@ e	KEYWORD3
 ou	KEYWORD3
 usar KEYWORD3
 quebrar	KEYWORD3
+padrao	KEYWORD2
+milissegundos	KEYWORD2
 
 # Constants (LITERAL1)
 VERDADEIRO	LITERAL1
@@ -89,6 +107,8 @@ Entrada	LITERAL1
 ENTRADA	LITERAL1
 Entrada_PULLUP	LITERAL1
 ENTRADA_PULLUP	LITERAL1
+ENTRADA_PULLDOWN	LITERAL1
+Entrada_PULLDOWN	LITERAL1
 Saida	LITERAL1
 SAIDA 	LITERAL1
 Ligado	LITERAL1
@@ -108,3 +128,4 @@ SERVOPARAR	LITERAL1
 SERVOTRAS	LITERAL1
 MUDANDO	LITERAL1
 SemRetorno	LITERAL1
+semRetorno	LITERAL1

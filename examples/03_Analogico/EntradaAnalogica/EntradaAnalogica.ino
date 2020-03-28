@@ -15,18 +15,18 @@
 #include <Brino.h>
 
 // Entrada do sensor
-Numero sensor = A0;
+numero sensor = A0;
 // Porta onde o LED esta ligado
-Numero LED = 13;
+numero LED = 13;
 // Variavel para armazenar a leitura do sensor
-Numero leitura = 0;
+numero leitura = 0;
 
-Configuracao() {
+configuracao() {
   // Declara o LED como saida:
   definirModo(LED, SAIDA);
 }
 
-Principal() {
+principal() {
   // Le o sensor e armazena o valor:
   leitura = lerAnalogico(sensor);
   // Acende o LED

@@ -16,16 +16,16 @@
 Servo meuServo;
 
 // Porta em que o sensor esta conectado
-Constante Numero SENSOR = A0;
+Constante numero SENSOR = A0;
 // Variavel que armazena as leituras do sensor
-Numero leitura;
+numero leitura;
 
-Configuracao() {
+configuracao() {
   // Informa que o servo esta conectado na porta digital 9
   meuServo.conectarServo(9);
 }
 
-Principal() {
+principal() {
   // Executa a leitura do sensor e armazena o valor na variavel "leitura"
   leitura = lerAnalogico(SENSOR);
   // Proporciona a leitura do sensor no angulo do motor

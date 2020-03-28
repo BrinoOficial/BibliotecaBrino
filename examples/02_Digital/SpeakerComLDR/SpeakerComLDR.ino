@@ -12,21 +12,21 @@
 
 #include <Brino.h>
 
-Configuracao() {
+configuracao() {
     // inicializa a comunicacao serial(apenas para debugar):
     USB.conectar(9600);
 }
 
-Principal() {
+principal() {
     // Le a entrada do LDR:
-    Numero leituraLDR = lerAnalogico(A0);
+    numero leituraLDR = lerAnalogico(A0);
     // mostra na serial o seu valor, para voce saber a sua variacao
     USB.enviarln(leituraLDR);
     // Verifica a variacao da entrada analogica, (no caso, 400 - 1000 do LDR)
     // A saida do speacker varia de 120 a 1500Hz
     // Modifica os numeros maximo e minimo para os abaixo dependendo
     // da variacao medida pelo sensor.
-    Numero nota = proporcionar(leituraLDR, 400, 1000, 120, 1500);
+    numero nota = proporcionar(leituraLDR, 400, 1000, 120, 1500);
 
     // toca a nota:
     soar(9, nota, 10);

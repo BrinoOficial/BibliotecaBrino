@@ -1,0 +1,141 @@
+Testar json:
+	*SERVOFRENTE (1700)
+	*SERVOPARAR (1500)
+	*SERVOTRAS (1300)
+	*ENTRADA (INPUT)
+	*SAIDA (OUTPUT)
+	*ENTRADA_PULLUP
+	*LIGADO
+	*DESLIGADO
+	*LIGANDO
+	*DESLIGANDO
+	*DIREITO
+	*ESQUERDO
+	*lerDigital
+	*conectarServo
+	*escreverDigital
+	*arquivo.disponivel (File.available)
+	*arquivo.espiar (File.peek) 
+	*File.read()
+	*semRetorno
+
+*Arrumar o Servo e servo para <nomeServo> no dicionario onde ta errado
+
+Adicionar dicionario:
+	definirVelocidade
+	MotorDePasso (Stepper) -Stpper
+	definirVelocidade (setSpeed) -Stepper
+	passo (step) -Stepper
+	*ENTRADA
+	padrao (default)
+	existe (exists)
+	criarPasta (mkdir)
+	removerPasta
+	fechar (close)
+	gravar (print) -Arquivo
+	arquivoGravar (FILE_WRITE)
+	*SERVOFRENTE (1700)
+	*SERVOPARAR (1500)
+	*SERVOTRAS (1300)
+	emNumero (toInt)
+	comecaCom (startsWith)
+	terminaCom (endsWith)
+	milissegundos (milis) - cronometro?
+	rolarMensagemEsquerda (scrollDisplayLeft) -LCD
+	rolarMensagemDireita (scrollDisplayRight) -LCD
+	origem (home) -LCD
+	cursor (cursor) -LCD
+	esconderCursor (noCursor) -LCD
+	piscarCursor (blink) -LCD
+	pararPiscarCursor (noBlink) -LCD
+	autoRolar (autoscroll) -LCD
+	pararAutoRolar (noAutoscroll) -LCD
+	esquerdaPraDireita (leftToRight) -LCD
+	direitaPraEsquerda (rightToLeft) -LCD
+	criarLetra (createChar) -LCD
+	*ENTRADA_PULLUP
+	*SAIDA
+	LIGADO
+	DESLIGADO
+	*LIGANDO
+	*DESLIGANDO
+	DIREITO
+	ESQUERDO 
+	MUDANDO
+	definir (Só na IDE, não na biblioteca)
+	lerDigital
+	quebrar
+	melhorar os comandos de arquivo 
+	USB.escrever - Serial.write
+	servo.conectarServo
+	escreverDigital
+	*numero
+	*numeroDecimal
+	*numeroLongo
+	*numeroLongo numeroLongo
+	*letra
+	*condicao
+	*procedimento (remover? Sim)
+	*configuracao
+	*principal
+	ENTRADA_PULLDOWN
+	arquivo.disponivel (File.available)
+	arquivo.espiar (File.peek) 
+	File.read()
+	*semRetorno (void)
+
+Remover no futuro:
+	Procedimentoc(void)
+	Ligado(HIGH)
+	Desligado(LOW)
+	Saida(OUTPUT)
+	Entrada(INPUT)
+	Entrada_PULLUP (INPUT_PULLUP)
+	Entrada_PULLDOWN (INPUT_PULLDOWN)
+	ArquivoGravar (FILE_WRITE)
+	Pino. -de tudo
+	Pino.ler por lerDigital
+	Mudando
+	Servo.frente,tras, parar
+	Numero (int)
+	NumeroDecimal (float)
+	NumeroLongo (long)
+	NumeroLongo NumeroLongo (long long)
+	Letra (char)
+	Condicao (boolean)
+	Procedimento (void)
+	Configuracao
+	Principal
+
+	
+	
+	
+Existe na IDE e não na biblioteca
+	usar(#include)
+	MotorDePasso (Stepper) -Stpper
+	definirVelocidade (setSpeed) -Stepper
+	passo (step) -Stepper
+	rolarMensagemEsquerda (scrollDisplayLeft) -LCD
+	rolarMensagemDireita (scrollDisplayRight) -LCD
+	origem (home) -LCD
+	esconderCursor (noCursor) -LCD
+	piscarCursor (blink) -LCD
+	pararPiscarCursor (noBlink) -LCD
+	autoRolar (autoscroll) -LCD
+	pararAutoRolar (noAutoscroll) -LCD
+	esquerdaPraDireita (leftToRight) -LCD
+	direitaPraEsquerda (rightToLeft) -LCD
+	criarLetra (createChar) -LCD
+	Pino.
+	definir
+	Servo.frente,tras, parar
+	servo.conectar
+	Parte I2C
+	Parte Memoria
+	arquivo.disponivel (File.available)
+	arquivo.espiar (File.peek) 
+	File.read()
+
+	
+
+

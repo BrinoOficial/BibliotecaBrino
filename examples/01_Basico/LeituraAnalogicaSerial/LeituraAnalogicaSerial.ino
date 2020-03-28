@@ -5,14 +5,14 @@
 #include <Brino.h>
 
 // Parte do codigo de configuracao
-Configuracao() {     // Inicia a comunicacao serial padrao pelo USB com a taxa de transmissao em 9600.
+configuracao() {     // Inicia a comunicacao serial padrao pelo USB com a taxa de transmissao em 9600.
   USB.conectar(9600);
 }
 
 // Loop que se repete indefinidamente
-Principal() {
+principal() {
   // Le a entrada da porta analogica A0:
-  Numero leitura = lerAnalogico(A0);
+  numero leitura = lerAnalogico(A0);
   // Apresenta no monitor serial o valor lido:
   USB.enviarln(leitura);
   //tempo entre uma medida e outra

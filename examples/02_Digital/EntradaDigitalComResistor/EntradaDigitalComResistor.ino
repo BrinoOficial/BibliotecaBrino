@@ -14,11 +14,11 @@
 #include <Brino.h>
 
 // Porta em que o botao esta conectado
-Constante Numero BOTAO = 2;   
+Constante numero BOTAO = 2;   
 // Porta do LED
-Constante Numero LED =  13;
+Constante numero LED =  13;
 
-Configuracao() {
+configuracao() {
     //inicia a comunicacao serial
     USB.conectar(9600);
     //define a porta 2 como uma entrada e habilita seu resistor
@@ -26,9 +26,9 @@ Configuracao() {
     definirModo(LED, SAIDA);
 }
 
-Principal() {
+principal() {
     //Le o estado do botao
-    Numero leitura = lerDigital(BOTAO);
+    numero leitura = lerDigital(BOTAO);
     //Apresenta a leitura no monitor serial
     USB.enviarln(leitura);
 

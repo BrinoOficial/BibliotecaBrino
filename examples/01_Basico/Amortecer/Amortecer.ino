@@ -7,20 +7,20 @@
 #include <Brino.h>
 
 // A porta em que o Led esta ligado
-Numero LED = 9;
+numero LED = 9;
 // variavel de brilho
-Numero brilho = 0;
+numero brilho = 0;
 // constante de mudanca
-Numero mudanca = 5;
+numero mudanca = 5;
 
 // Parte do codigo de configuracao
-Configuracao() {
+configuracao() {
   // declara o pino 9 como uma saida
   definirModo(LED, Saida);
 }
 
 // Loop que se repete indefinidamente
-Principal() {
+principal() {
   // escreve o brilho do LED
   escreverAnalogico(LED, brilho);
   // Muda o brilho para a proxima passagem do loop
