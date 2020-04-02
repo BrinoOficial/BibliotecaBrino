@@ -57,10 +57,10 @@ principal() {
     // Resultado "Leitura sensor: 504" ou quaquer valor lido
 
     // Adiciona um numero longo variavel (numeroLongo) a uma frase
-    fraseUm = "Valor do millis(): ";
-    fraseTres = fraseUm + millis();
+    fraseUm = "Valor do cronometro(): ";
+    fraseTres = fraseUm + cronometro();
     USB.enviarln(fraseTres);
-    // Resultado "Valor do millis(): 67" ou qualquer que seja o valor dele
+    // Resultado "Valor do cronometro(): 67" ou qualquer que seja o valor dele
 
     // Para o codigo
     enquanto (Verdadeiro);

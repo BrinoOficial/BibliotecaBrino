@@ -61,9 +61,9 @@ principal() {
     // Resultado "11111111" que e o valor binario do valor decimal 255
 
     // Usando um numeroLongo e uma base definida (decimal)
-    fraseUm =  Palavra(millis(), DEC);
+    fraseUm =  Palavra(cronometro(), DEC);
     USB.enviarln(fraseUm);
-    // Resultado "52" ou qualquer valor correspondente ao millis
+    // Resultado "52" ou qualquer valor correspondente ao cronometro
 
     // Usando um numeroDecimal e um numero especifico de casas decimais
     fraseUm = String(5.698, 3);

@@ -160,7 +160,7 @@ void apagarMemoriaToda();
 #define ESQUERDO MSBFIRST
 #define SemRetorno void
 #define semRetorno void
-#define milissegundos milis
+#define cronometro millis
 
 
 

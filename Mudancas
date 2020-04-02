@@ -18,41 +18,13 @@ Testar json:
 	*arquivo.espiar (File.peek) 
 	*File.read()
 	*semRetorno
+	*cronometro
 
 *Arrumar o Servo e servo para <nomeServo> no dicionario onde ta errado
 
 Adicionar dicionario:
-	definirVelocidade
-	MotorDePasso (Stepper) -Stpper
-	definirVelocidade (setSpeed) -Stepper
-	passo (step) -Stepper
 	*ENTRADA
-	padrao (default)
-	existe (exists)
-	criarPasta (mkdir)
-	removerPasta
-	fechar (close)
-	gravar (print) -Arquivo
-	arquivoGravar (FILE_WRITE)
-	*SERVOFRENTE (1700)
-	*SERVOPARAR (1500)
-	*SERVOTRAS (1300)
-	emNumero (toInt)
-	comecaCom (startsWith)
-	terminaCom (endsWith)
-	milissegundos (milis) - cronometro?
-	rolarMensagemEsquerda (scrollDisplayLeft) -LCD
-	rolarMensagemDireita (scrollDisplayRight) -LCD
-	origem (home) -LCD
-	cursor (cursor) -LCD
-	esconderCursor (noCursor) -LCD
-	piscarCursor (blink) -LCD
-	pararPiscarCursor (noBlink) -LCD
-	autoRolar (autoscroll) -LCD
-	pararAutoRolar (noAutoscroll) -LCD
-	esquerdaPraDireita (leftToRight) -LCD
-	direitaPraEsquerda (rightToLeft) -LCD
-	criarLetra (createChar) -LCD
+	*padrao (default)
 	*ENTRADA_PULLUP
 	*SAIDA
 	*LIGADO
@@ -62,13 +34,15 @@ Adicionar dicionario:
 	*DIREITO
 	*ESQUERDO 
 	*MUDANDO
-	definir (Só na IDE, não na biblioteca)
-	lerDigital
-	quebrar
-	melhorar os comandos de arquivo 
-	USB.escrever - Serial.write
-	servo.conectarServo
-	escreverDigital
+	*SERVOFRENTE (1700)
+	*SERVOPARAR (1500)
+	*SERVOTRAS (1300)
+	*emNumero (toInt)
+	*comecaCom (startsWith)
+	*terminaCom (endsWith)
+	*quebrar
+	*USB.escrever - Serial.write
+	*servo.conectarServo
 	*numero
 	*numeroDecimal
 	*numeroLongo
@@ -79,10 +53,45 @@ Adicionar dicionario:
 	*configuracao
 	*principal
 	*ENTRADA_PULLDOWN
-	arquivo.disponivel (File.available)
-	arquivo.espiar (File.peek) 
-	File.read()
 	*semRetorno (void)
+	*lerDigital
+	*escreverDigital
+	*cronometro (milis)
+	
+	STEPPER
+	*MotorDePasso (Stepper) -Stpper
+	*definirVelocidade (setSpeed) -Stepper
+	*passo (step) -Stepper
+	
+	ARQUIVO
+	melhorar os comandos de arquivo -Arquivo
+	existe (exists) -Arquivo
+	criarPasta (mkdir) -Arquivo
+	removerPasta -Arquivo
+	fechar (close) -Arquivo
+	gravar (print) -Arquivo
+	arquivoGravar (FILE_WRITE) -Arquivo
+	File.read() -Arquivo
+	arquivo.disponivel (File.available) -Arquivo
+	arquivo.espiar (File.peek) -Arquivo
+	
+	LCD
+	*rolarMensagemEsquerda (scrollDisplayLeft) -LCD
+	*rolarMensagemDireita (scrollDisplayRight) -LCD
+	*origem (home) -LCD
+	*cursor (cursor) -LCD
+	*esconderCursor (noCursor) -LCD
+	*piscarCursor (blink) -LCD
+	*pararPiscarCursor (noBlink) -LCD
+	*autoRolar (autoscroll) -LCD
+	*pararAutoRolar (noAutoscroll) -LCD
+	*esquerdaPraDireita (leftToRight) -LCD
+	*direitaPraEsquerda (rightToLeft) -LCD
+	*criarLetra (createChar) -LCD
+	
+	
+	
+	
 
 Remover no futuro:
 	Procedimentoc(void)

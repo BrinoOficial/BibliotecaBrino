@@ -38,10 +38,10 @@ principal() {
     // Se o estado do botao tiver mudado
     se (leitura != ultimoEstadoBotao) {
         // Recalcula o tempo
-        ultimoEstadoBotao = millis();
+        ultimoEstadoBotao = cronometro();
     }
 
-    se ((millis() - tempoUltimaMudanca) > tempoMudanca) {
+    se ((cronometro() - tempoUltimaMudanca) > tempoMudanca) {
         // Se o estado do botao tiver mudado
         se (leitura != estadoBotao) {
             estadoBotao = leitura;

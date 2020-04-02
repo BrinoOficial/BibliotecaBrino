@@ -17,7 +17,7 @@ Constante numero LED =  13;
 numero estadoLED = DESLIGADO;
 
 // Variavel para armazenar o momento da ultima mudanca de estado. Usamos o modulo pois o numero ira crescer muito rapidamente
-Modulo numeroLongo millisAnterior = 0;
+Modulo numeroLongo cronometroAnterior = 0;
 
 // Intervalo entre as piscadas
 Constante numero INTERVALO = 1000;
@@ -30,10 +30,10 @@ principal() {
     // Colocamos aqui o codigo que queremos que rode simultaneamente
 
     // Pega o momento atual e compara com o antigo para piscar no momento correto
-    Modulo numeroLongo millisAtual = millis();
-    se (millisAtual - millisAnterior >= INTERVALO) {
+    Modulo numeroLongo cronometroAtual = cronometro();
+    se (cronometroAtual - cronometroAnterior >= INTERVALO) {
         // Salva a ultima vez em que piscou
-        millisAnterior = millisAtual;
+        cronometroAnterior = cronometroAtual;
 
         // Inverte o estado do LED
         se (estadoLED == DESLIGADO) {

@@ -16,6 +16,7 @@ condicao	KEYWORD1
 procedimento	KEYWORD1
 
 # Methods and Functions (KEYWORD2)
+escreverDigital	KEYWORD2
 soar	KEYWORD2
 pararSoar	KEYWORD2
 esperar	KEYWORD2
@@ -97,7 +98,7 @@ ou	KEYWORD3
 usar KEYWORD3
 quebrar	KEYWORD3
 padrao	KEYWORD2
-milissegundos	KEYWORD2
+cronometro	KEYWORD2
 
 # Constants (LITERAL1)
 VERDADEIRO	LITERAL1

@@ -27,7 +27,7 @@ configuracao() {
   ligar(13);
 
   // calibra durante os primeiros cinco segundos
-  enquanto (millis() < 5000) {
+  enquanto (cronometro() < 5000) {
     leitura = lerAnalogico(SENSOR);
 
     // Armazena o maior valor encontrado em "leituraMax"
