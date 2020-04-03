@@ -1,0 +1,10 @@
+name=Brino
+version=1.0.0
+author=Brino<contato@brino.cc>
+maintainer=Victor Pacheco <victor@brino.cc>, Gabriel Pacheco <gabriel@brino.cc>
+sentence=A biblioteca possibilita o uso de termos em portugues (Brino) para a programacao do arduino.
+paragraph=Biblioteca que possibilita o uso da linguagem Br.ino, inteiramente em português, para desenvolvimento de códigos na interface do Arduino.
+category=Other
+url=https://brino.cc
+architectures=avr
+includes=Brino.h
