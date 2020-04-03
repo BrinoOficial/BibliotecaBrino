@@ -5,6 +5,6 @@ maintainer=Victor Pacheco <victor@brino.cc>, Gabriel Pacheco <gabriel@brino.cc>
 sentence=A biblioteca possibilita o uso de termos em portugues (Brino) para a programacao do arduino.
 paragraph=Biblioteca que possibilita o uso da linguagem Br.ino, inteiramente em português, para desenvolvimento de códigos na interface do Arduino.
 category=Other
-url=https://brino.cc
+url=https://brino.cc/dicionario
 architectures=avr
 includes=Brino.h
