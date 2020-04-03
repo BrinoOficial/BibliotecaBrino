@@ -22,7 +22,6 @@ Infelizmente nem todos os comandos estão compativeis com a versão biblioteca d
 	- Comandos traduzidos da biblioteca Memoria (EEPROM)
     - Comandos traduzidos da biblioteca LCD (LCD)
     - Comandos traduzidos da biblioteca MotorDePasso (Stepper)
-    - Comandos relacionados a Arquivos (File)
 
 
 ## Exemplos da limguagem
