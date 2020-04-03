@@ -1,13 +1,28 @@
 # Biblioteca Brino
 
-Uma biblioteca que possibilita o uso dos termos da limguagem/IDE Br.ino na IDE do Arduino. 
+Uma biblioteca que possibilita o uso dos termos da linguagem/IDE Br.ino na IDE do Arduino. 
 
 ## Conheça nossa IDE
+
+Programar Arduino com nosso ambiente de desenvolvimento é uma experiência sem igual. Nosso software é completamente traduzido para o português, com palavras-chave intuitivas que facilitam a compreensão da lógica de programação. Além disso, pode-se mesclar códigos em linguagem Arduino com as instruções em português. Tudo para tornar o processo de aprendizagem mais acessível e interessante!
+
+Lembre-se que este programa é **grátis** e **open-source**, então, não deixe de experimentá-lo!
+
+Seu download está disponível para ambientes Linux e Windows [aqui.](https://brino.cc/download)
 
 ## Os termos (documentação)
 
 A lista completa dos comandos existentes na linguagem está disponível [aqui.](https://brino.cc/dicionario)
-Infelizmente nem todos os comandos estão compativeis com a versãobiblioteca da linguagem. Segue abaixo a lista dos comandos não compativeis:
+Infelizmente nem todos os comandos estão compativeis com a versão biblioteca da linguagem. Segue abaixo a lista dos comandos não compativeis:
+
+    - usar (#include <<biblioteca>.h>)
+	- definir (#define <nomeConstante> <valor>)
+	- servo.conectar(Digital.<porta>)
+	- Comandos traduzidos da biblioteca I2C (I2C)
+	- Comandos traduzidos da biblioteca Memoria (EEPROM)
+    - Comandos traduzidos da biblioteca LCD (LCD)
+    - Comandos traduzidos da biblioteca MotorDePasso (Stepper)
+    - Comandos relacionados a Arquivos (File)
 
 
 ## Exemplos da limguagem
