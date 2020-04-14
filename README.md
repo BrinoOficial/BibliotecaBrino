@@ -116,7 +116,7 @@ Ao seguir esses passos a biblioteca deve ter sido baixada e estar pronta para us
 
 ## Começando
 
-Se estiver com dúvidas de por onde começar a aprender, recomendamos usar os exemplos que são instalados junto da biblioteca. Eles estão disponíveis na aba "Arquivo" > "Exemplos" > "Brino" (deve ser um dos últimos itens da lista). Diversos tutoriais estão online também no site: [https://brino.cc/tutoriais](https://brino.cc/tutoriais). Caso queira um material mais completo e detalhado existe uma apostila gratuita no mesmo site, mais precisamente em [https://brino.cc/download#ebook](https://brino.cc/download#ebook). Nela é encontrado o básico tanto de programação quanto eletrônica como outros temas correlatos.
+Se estiver com dúvidas de por onde começar a aprender, recomendamos o uso dos exemplos que são disponibilizados junto à biblioteca. Eles estão disponíveis na aba "Arquivo" > "Exemplos" > "Brino" (deve ser um dos últimos itens da lista). Diversos tutoriais estão online também no site: [https://brino.cc/tutoriais](https://brino.cc/tutoriais). Caso deseje aprofundar mais existe uma apostila gratuita em [https://brino.cc/download#ebook](https://brino.cc/download#ebook). Nela é sãp abordados conhecimentos de programação e eletrônica, além de outros temas correlatos.
 
 
 ## Contato
