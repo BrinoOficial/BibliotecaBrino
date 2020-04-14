@@ -113,6 +113,12 @@ Uma vez com o Arduino aberto siga os passos:
 
 Ao seguir esses passos a biblioteca deve ter sido baixada e estar pronta para uso. Em caso de algum problema use uma das opções de contato para obter suporte.
 
+
+## Começando
+
+Se estiver com dúvidas de por onde começar a aprender, recomendamos usar os exemplos que são instalados junto da biblioteca. Eles estão disponíveis na aba "Arquivo" > "Exemplos" > "Brino" (deve ser um dos últimos itens da lista). Diversos tutoriais estão online também no site: [https://brino.cc/tutoriais](https://brino.cc/tutoriais). Caso queira um material mais completo e detalhado existe uma apostila gratuita no mesmo site, mais precisamente em [https://brino.cc/download#ebook](https://brino.cc/download#ebook). Nela é encontrado o básico tanto de programação quanto eletrônica como outros temas correlatos.
+
+
 ## Contato
 
 Nosso site: [https://brino.cc/](https://brino.cc/)
