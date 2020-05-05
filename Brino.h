@@ -163,15 +163,4 @@ void apagarMemoriaToda();
 #define cronometro millis
 
 
-
-class blk_n{
-  public: //O que sera acessivel para o usuario
-    blk_n(int pin); //Define o pino do blink LED
-    void blk_led(int ms); //Tempo de piscar o LED
-  private: //Nao disponivel para o usuario
-    int _pin;
-};
-
-
-
 #endif

@@ -2,6 +2,7 @@
 
 Uma biblioteca que possibilita o uso dos termos da linguagem/IDE Br.ino na IDE do Arduino. 
 
+
 ## Conheça nossa IDE
 
 Programar Arduino com nosso ambiente de desenvolvimento é uma experiência sem igual. Nosso software é completamente traduzido para o português, com palavras-chave intuitivas que facilitam a compreensão da lógica de programação. Além disso, pode-se mesclar códigos em linguagem Arduino com as instruções em português. Tudo para tornar o processo de aprendizagem mais acessível e interessante!
@@ -9,6 +10,7 @@ Programar Arduino com nosso ambiente de desenvolvimento é uma experiência sem 
 Lembre-se que este programa é **grátis** e **open-source**, então, não deixe de experimentá-lo!
 
 Seu download está disponível para ambientes Linux e Windows [aqui.](https://brino.cc/download)
+
 
 ## Os termos (documentação)
 
@@ -98,7 +100,24 @@ principal() {
   esperar(leitura);
 }
 ```
+
+
 ## Como instalar e usar essa biblioteca
+
+Para fazer a instalação da biblioteca é necessário possuir a IDE do Arduino instalada no seu computador. Caso não a possua, basta fazer o download e a instalação disponíveis no link: [https://www.arduino.cc/en/main/software](https://www.arduino.cc/en/main/software).
+Uma vez com o Arduino aberto siga os passos:
+1. Vá para a aba "Ferramentas"
+1. Abra o "Gerenciar Bibliotecas..."
+1. Na barra de pesquisa disponível na parte superior direita pesquise "Brino"
+1. Clique no botão "Instalar" que está a direita
+
+Ao seguir esses passos a biblioteca deve ter sido baixada e estar pronta para uso. Em caso de algum problema use uma das opções de contato para obter suporte.
+
+
+## Começando
+
+Se estiver com dúvidas de por onde começar a aprender, recomendamos o uso dos exemplos que são disponibilizados junto à biblioteca. Eles estão disponíveis na aba "Arquivo" > "Exemplos" > "Brino" (deve ser um dos últimos itens da lista). Diversos tutoriais estão online também no site: [https://brino.cc/tutoriais](https://brino.cc/tutoriais). Caso deseje aprofundar mais existe uma apostila gratuita em [https://brino.cc/download#ebook](https://brino.cc/download#ebook). Nela é sãp abordados conhecimentos de programação e eletrônica, além de outros temas correlatos.
+
 
 ## Contato
 
